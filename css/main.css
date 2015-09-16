@@ -95,13 +95,14 @@ html {
 	color: black;
 }
 
-.how-to:nth-child(2) p {
-	margin-left: 250px;
+.how-to .first {
+	margin-left: 100px;
 
 }
 
-.how-to:nth-child(1) p {
-	margin-left: 100px;
+
+.how-to .second  {
+	margin-left: 250px;
 
 }
 
