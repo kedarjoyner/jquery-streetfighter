@@ -1,3 +1,8 @@
+@face-face {
+	font-family: 'comical';
+	src: url("../fonts/animeace2_reg.otf");
+}
+
 body {
 	background-color: #000000;
 }
@@ -63,7 +68,21 @@ body {
 	background-image: url("../images/ryu-throwing-hadouken.png");
 }
 
+.how-to  {
+	font-family: 'comical', Helvetica, Arial;
+	font-size: 24px;
+	width: 600px;
+	display:inline-block;
+	float: right;
+	position: relative;
+	bottom: 400px;
+}
 
+
+.how-to p {
+	width: 50%;
+	color: black;
+}
 
 
 
