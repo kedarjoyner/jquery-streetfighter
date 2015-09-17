@@ -79,13 +79,57 @@ html {
 	background-image: url("../images/ryu-throwing-hadouken.png");
 }
 
-.how-to  {
-	
+/* INTRO CONTENT */
+
+.jquery-logo, .brought-by {
+	display: none;
+}
+
+.intro-content {
 	width: 600px;
 	float: right;
 	position: relative;
 	bottom: 430px;
 	margin-right: 30px;
+}
+
+.sf-logo {
+	background-image: url("../images/sf-logo.jpg");
+	width: 620px;
+	height: 314px;
+	background-size: cover;
+	background-position: center;
+}
+
+.brought-by {
+	font-family: 'anime_ace_2.0_bbregular', Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	color: red;
+	text-align: center;
+	line-height: 1.8em;
+	margin-top: 130px;
+	margin-right: 30px;
+}
+
+.jquery-logo {
+	background-image: url("../images/jquery-logo.jpg");
+	width: 500px;
+	height: 172px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 80px;
+}
+
+
+/* END OF INTRO CONTENT */
+
+.how-to  {
+	width: 600px;
+	float: right;
+	position: relative;
+	bottom: 430px;
+	margin-right: 100px;
+	display: none;
 }
 
 .how-to p {
@@ -99,11 +143,11 @@ html {
 	width: 50%;
 }
 
-.how-to .second  {
+/*.how-to .second  {
 	margin-left: 260px;
 	position: relative;
 	margin-right: 40px;
-}
+}*/
 
 
 
