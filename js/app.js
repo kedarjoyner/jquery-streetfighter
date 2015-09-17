@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
-    $('.ryu-container').mouseenter(function(){
+        playRyuTheme();
+        $('.ryu-container').mouseenter(function(){
         $('.ryu-still').hide();
         $('.ryu-ready').show();
     })
@@ -39,8 +40,8 @@ $(document).ready(function(){
     }
 
     function playRyuTheme() {
-        $('#hadouken-sound')[0].volume = 0.5;
-        $('#hadouken-sound')[0].load();
-        $('#hadouken-sound')[0].play();
+        $('#ryu-sound')[0].volume = 0.5;
+        $('#ryu-sound')[0].load();
+        $('#ryu-sound')[0].play();
     }
 
