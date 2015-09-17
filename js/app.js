@@ -23,10 +23,17 @@ $(document).ready(function(){
     .mouseup(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
+    /*})
+     $(function(){
+        playRyuTheme();
+        $('sf-logo').fadeIn('slow');
+        $(this).fadeOut('slow');*/
+
     });
 
 });
-	function playHadouken() {
+	
+    function playHadouken() {
         $('#hadouken-sound')[0].volume = 0.5;
         $('#hadouken-sound')[0].load();
         $('#hadouken-sound')[0].play();
