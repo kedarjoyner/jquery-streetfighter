@@ -28,7 +28,6 @@ $(document).ready(function(){
         playRyuTheme();
         $('sf-logo').fadeIn('slow');
         $(this).fadeOut('slow');*/
-
     });
 
 });
