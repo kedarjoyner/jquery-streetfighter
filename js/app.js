@@ -1,8 +1,11 @@
 
 $(document).ready(function(){
         playRyuTheme();
-        $('.sf-logo').fadeIn(2000, function() {
-            $(this).fadeOut(1000);
+        $('.sf-logo').fadeIn(4000, function() {
+        $('.sf-logo').fadeOut(1000);
+        $('.brought-by').fadeIn(4000).fadeOut(1000); 
+        $('.jquery-logo').delay(5000).fadeIn(4000).fadeOut(1000);
+        $('.how-to').delay(10000). fadeIn(4000);
     })
         $('.ryu-container').mouseenter(function(){
         $('.ryu-still').hide();
@@ -28,7 +31,6 @@ $(document).ready(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
     });
-
 });
 
 	
