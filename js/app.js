@@ -29,12 +29,11 @@ $(document).ready(function(){
     })
     .mouseup(function(){
         $('.ryu-throwing').hide();
-        $('.ryu-ready').show();
+        $('.ryu-still').show();
     })
     $(document).keydown(function(e){
         if (e.keyCode == 88){
             //console.log("x pressed")
-            // is there another way than assigning ryu-action to the div class??
             $('.ryu-ready').hide();
             $('.ryu-cool').show();
         }
@@ -42,7 +41,8 @@ $(document).ready(function(){
     .keyup(function(e){
         if (e.keyCode == 88){
             $('.ryu-cool').hide();
-            $('.ryu-ready').show();
+            $('.ryu-still').show();
+            $('.ryu-ready').hide();
         }
     })    
 })
