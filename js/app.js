@@ -25,13 +25,27 @@ $(document).ready(function(){
             function(){
                 $(this).hide();
                 $(this).css('left', '520px');
-            });
+            })
     })
     .mouseup(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
-    });
-});
+    })
+    $(document).keydown(function(e){
+        if (e.keyCode == 88){
+            //console.log("x pressed")
+            // is there another way than assigning ryu-action to the div class??
+            $('.ryu-still').hide();
+            $('.ryu-cool').show();
+        }
+    })
+    .keyup(function(e){
+        if (e.keyCode == 88){
+            $('.ryu-still').hide();
+            $('.ryu-ready').show();
+        }
+    })    
+})
 
 	
     function playHadouken() {
@@ -45,4 +59,12 @@ $(document).ready(function(){
         $('#ryu-sound')[0].load();
         $('#ryu-sound')[0].play();
     }
+    
+    function playSaxSong() {
+        $('#cool-sound')[0].volume = 0.5;
+        $('#cool-sound')[0].load();
+        $('#cool-sound')[0].play();
+    }
+
+
 
