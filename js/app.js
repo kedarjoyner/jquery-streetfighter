@@ -33,9 +33,9 @@ $(document).ready(function(){
     })
     $(document).keydown(function(e){
         if (e.keyCode == 88){
-            //console.log("x pressed")
             $('.ryu-still').hide();
             $('.ryu-cool').show();
+            playRyuTheme.stop();
         }
     })
     .keyup(function(e){
