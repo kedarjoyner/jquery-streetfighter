@@ -35,7 +35,7 @@ $(document).ready(function(){
         if (e.keyCode == 88){
             //console.log("x pressed")
             // is there another way than assigning ryu-action to the div class??
-            $('.ryu-still').hide();
+            $('.ryu-ready').hide();
             $('.ryu-cool').show();
         }
     })
