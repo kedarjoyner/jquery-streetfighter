@@ -34,8 +34,8 @@ $(document).ready(function(){
     $(document).keydown(function(e){
         if (e.keyCode == 88){
             $('.ryu-still').hide();
-            $('.ryu-cool').show();
-            playRyuTheme.stop();
+            $('.ryu-ready').hide();
+            $('.ryu-cool').show();          
         }
     })
     .keyup(function(e){
