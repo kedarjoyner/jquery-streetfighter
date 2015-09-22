@@ -35,9 +35,10 @@ html {
 .capcom-logo {
 	width: 200px;
 	height: 37px;
-	margin-top: 40px;
-	margin-left: 460px;
-	padding-bottom: 20px;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 500px;
+	padding-bottom: 10px;
 }
 
 .ryu-container {
