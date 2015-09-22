@@ -43,8 +43,8 @@ $(document).ready(function(){
     })
     .keyup(function(e){
         if (e.keyCode == 88){
-            $('#cool-sound')[0].pause();
             $('#ryu-sound')[0].play();
+            $('#cool-sound')[0].pause();
             $('.ryu-cool').hide();
             $('.ryu-still').show();
             $('.ryu-ready').hide();
